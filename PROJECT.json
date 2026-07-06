@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "devstral-lab",
+  "displayName": "Devstral Lab",
+  "version": "1.0.0",
+  "description": "14 one-shot coding agents on Mistral La Plateforme — Devstral Small 2 + Codestral, zero-429.",
+  "url": "https://github.com/anthonyoccelli33480-ctrl/devstral-lab",
+  "license": "MIT",
+  "author": {
+    "name": "Anthony Occelli",
+    "url": "https://github.com/anthonyoccelli33480-ctrl"
+  },
+  "ecosystem": {
+    "role": "mistral-code-phase-1",
+    "related": [
+      {
+        "name": "mistral-bureau",
+        "url": "https://github.com/anthonyoccelli33480-ctrl/mistral-bureau",
+        "relation": "mistral-fr-phase-2"
+      },
+      {
+        "name": "flash-agents",
+        "url": "https://github.com/anthonyoccelli33480-ctrl/flash-agents",
+        "relation": "cerebras-speed-showcase"
+      }
+    ]
+  },
+  "idea": "Code-agentic showcase for Mistral Devstral and Codestral. One-shot JSON tasks for review, impl plans, SQL, Docker — no agent loops.",
+  "features": [
+    "14 code agents",
+    "Per-model rate gates (30s / 20s)",
+    "Lab Impl agentic planning",
+    "Onboarding MISTRAL_API_KEY",
+    "macOS Desktop launcher"
+  ],
+  "techStack": {
+    "backend": ["Python 3.12", "FastAPI", "httpx"],
+    "frontend": ["React 19", "Vite", "TypeScript"],
+    "inference": ["Mistral La Plateforme", "api.mistral.ai"],
+    "models": ["devstral-small-latest", "codestral-latest"]
+  },
+  "agents": {
+    "count": 14,
+    "categories": ["agentic", "codestral", "security"]
+  },
+  "api": {
+    "basePath": "/api",
+    "port": 8788,
+    "frontendPort": 5175,
+    "endpoints": [
+      { "method": "GET", "path": "/api/health", "description": "Health + Mistral key" },
+      { "method": "GET", "path": "/api/agents", "description": "List agents" },
+      { "method": "POST", "path": "/api/run", "description": "Run one agent" },
+      { "method": "POST", "path": "/api/setup/key", "description": "Save MISTRAL_API_KEY" }
+    ]
+  },
+  "secrets": {
+    "envFile": ".env",
+    "key": "MISTRAL_API_KEY",
+    "neverInBrowser": true
+  },
+  "keywords": [
+    "devstral", "codestral", "mistral-ai", "code-agentic", "llm-agents",
+    "developer-tools", "structured-output", "zero-429"
+  ]
+}

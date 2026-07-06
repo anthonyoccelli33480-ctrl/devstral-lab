@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Devstral Lab",
+  "identifier": "devstral-lab",
+  "description": "14 one-shot coding agents on Mistral La Plateforme. Devstral Small 2 for agentic code tasks, Codestral for codegen. Zero-429 per-model rate gates.",
+  "url": "https://github.com/anthonyoccelli33480-ctrl/devstral-lab",
+  "codeRepository": "https://github.com/anthonyoccelli33480-ctrl/devstral-lab",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "macOS, Linux, Windows",
+  "softwareVersion": "1.0.0",
+  "license": "https://opensource.org/licenses/MIT",
+  "author": {
+    "@type": "Person",
+    "name": "Anthony Occelli",
+    "url": "https://github.com/anthonyoccelli33480-ctrl"
+  },
+  "programmingLanguage": ["Python", "TypeScript"],
+  "featureList": [
+    "14 code agents",
+    "Devstral Small 2 + Codestral",
+    "Implementation plan agent (Lab Impl)",
+    "Per-model rate gates",
+    "Structured JSON only"
+  ],
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "Mistral Showcase Stack",
+    "hasPart": [
+      { "@type": "SoftwareApplication", "name": "Mistral Bureau", "url": "https://github.com/anthonyoccelli33480-ctrl/mistral-bureau" }
+    ]
+  }
+}

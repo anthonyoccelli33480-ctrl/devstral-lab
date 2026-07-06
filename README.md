@@ -134,6 +134,10 @@ Full list → [docs/AGENTS.md](docs/AGENTS.md)
 
 Complements **[Flash Agents](https://github.com/anthonyoccelli33480-ctrl/flash-agents)** (Cerebras speed) and **[Mistral Bureau](https://github.com/anthonyoccelli33480-ctrl/mistral-bureau)** (FR product).
 
+## 🤖 Machine-readable
+
+- [`PROJECT.json`](PROJECT.json) · [`metadata.jsonld`](metadata.jsonld)
+
 ## 🔑 Keywords
 
 `devstral` · `codestral` · `mistral-ai` · `code-agentic` · `llm-agents` · `fastapi` · `structured-output` · `zero-429` · `developer-tools`
