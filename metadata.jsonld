@@ -15,7 +15,10 @@
     "name": "Anthony Occelli",
     "url": "https://github.com/anthonyoccelli33480-ctrl"
   },
-  "programmingLanguage": ["Python", "TypeScript"],
+  "programmingLanguage": [
+    "Python",
+    "TypeScript"
+  ],
   "featureList": [
     "14 code agents",
     "Devstral Small 2 + Codestral",
@@ -23,12 +26,25 @@
     "Per-model rate gates",
     "Structured JSON only"
   ],
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
   "isPartOf": {
     "@type": "CreativeWorkSeries",
-    "name": "Mistral Showcase Stack",
+    "name": "Anthony Occelli — LLM Showcase Stack",
     "hasPart": [
-      { "@type": "SoftwareApplication", "name": "Mistral Bureau", "url": "https://github.com/anthonyoccelli33480-ctrl/mistral-bureau" }
+      {
+        "@type": "SoftwareApplication",
+        "name": "Mistral Bureau",
+        "url": "https://github.com/anthonyoccelli33480-ctrl/mistral-bureau"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Flash Agents",
+        "url": "https://github.com/anthonyoccelli33480-ctrl/flash-agents"
+      }
     ]
   }
 }
