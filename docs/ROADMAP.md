@@ -7,10 +7,10 @@
 - Per-model rate gates (zero-429)
 - Private GitHub repo
 
-## Phase 2 — Mistral Bureau
+## Phase 2 — Mistral Bureau ✅
 
-- Reuse FastAPI + React shell
-- Add Mistral Large 3, Ministral, Pixtral, OCR
-- French-first agents (CV, RGPD, JD, email pro)
-- Model router agent
-- Separate repo or monorepo workspace
+→ https://github.com/anthonyoccelli33480-ctrl/mistral-bureau
+
+- 27 agents FR multi-modèles (Large, Ministral, Devstral, Pixtral)
+- Vision upload + rate gates par modèle
+- Ports 8789 / 5177
